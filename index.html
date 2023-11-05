@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/normalize.css">
-  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./src/images/logo.png" type="image/x-icon">
   <title>2048</title>
 </head>
 <body>
+
+  <div class="background__img"></div>
   
   <div class="game__board">
     <div class="cell"> </div>
@@ -26,6 +31,8 @@
     <div class="cell"></div>
     <div class="cell"></div>
     <div class="cell"></div>
+
+    <div class="active__cell"></div>
   </div>
 
   <script defer type="module" src="./src/js/index.js"></script>
